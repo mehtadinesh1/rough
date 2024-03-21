@@ -6,4 +6,6 @@ if res == 'yes':
     print('Drink Milk')
 
 else:
-    print('Do your homework')
+    user = input("Are you thirsty")
+    if user == 'yes':
+        print('Have water')
