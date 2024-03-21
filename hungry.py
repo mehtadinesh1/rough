@@ -7,4 +7,7 @@ if res == 'yes':
     print('Eat peanut butter')
 
 else:
-    print('Do your homework')
+    user = input("Are you thirsty")
+    if user == 'yes':
+        print('Have water')
+        print('Drink coconut water')
